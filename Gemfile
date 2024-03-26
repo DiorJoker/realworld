@@ -10,6 +10,8 @@ group :production do
   gem 'unicorn', '5.7.0'
 end
 
+gem 'rack-cors'
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
